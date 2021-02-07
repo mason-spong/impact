@@ -4,8 +4,136 @@
     box-sizing: border-box;
 }
 
+p, h1, h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 .github-sym {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
+
+.github-sym img {
+    filter: invert(100%);
+}
+
+.timer-grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    row-gap: 10px;
+}
+
+.timer, .time-exp{
+    display: grid;
+    grid-template: 50px / 1fr 2fr 1fr 1fr;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.timer-toggle, 
+.timer-title, 
+.timer-total,
+.timer-remove {
+    width: fit-content;
+    margin: auto;
+
+}
+
+.timer p {
+    margin-bottom: 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.timer-remove p {
+    border-radius: 5%;
+    background-color: #ce3d35;
+}
+
+.timer-toggle  p {
+    border-radius: 5%;
+    background-color: #5daa5d;
+}
+
+.timer-toggle p:hover,
+.timer-remove p:hover {
+    filter: opacity(0.8);
+}
+
+.timer-remove p, .timer-toggle p {
+    color: whitesmoke;
+}
+
+.welcome h1, .welcome p {
+    width: fit-content;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.welcome h1 {
+    letter-spacing: 10px;
+}
+
+.timer-grid-title h3 {
+    width: fit-content;
+    margin: 0 auto;
+}   
+
+.welcome, footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ce3d35;
+}
+
+.welcome-box, .github-sym {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.timer-grid-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.add-timer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.timer-grid-title h3, .add-timer p {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ce3d35;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.add-timer p:hover {
+    border-color: whitesmoke;
+    background-color: #ce3d35;
+    color: whitesmoke;
+}
+
+.exp p {
+    background-color: transparent;
+    color: black;
+    /* border-right-style: solid;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 0px; */
+    font-size: smaller;
+}
+
+
+
