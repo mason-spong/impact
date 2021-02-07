@@ -75,6 +75,7 @@ p, h1, h3 {
 
 .welcome h1 {
     letter-spacing: 10px;
+    padding-left: 10px;
 }
 
 .timer-grid-title h3 {
