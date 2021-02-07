@@ -136,5 +136,28 @@ p, h1, h3 {
     font-size: smaller;
 }
 
+.about-purpose,
+.about-howto,
+.about-me {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-img img,
+.graph-div img {
+    width: 200px;
+    height: 200px;
+}
+
+.about-img,
+.graph-div {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ce3d35;
+    margin-bottom: 20px;
+}
 
 
