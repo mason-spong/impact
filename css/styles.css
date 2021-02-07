@@ -138,9 +138,37 @@ p, h1, h3 {
 
 .about-purpose,
 .about-howto,
-.about-me {
+.about-me,
+
+.about-purpose p,
+.about-howto p,
+.about-me p {
     width: 90%;
     margin: 0 auto;
+}
+
+.about-purpose p,
+.about-howto p,
+.about-me p,
+.contact p {
+    width: fit-content;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact p {
+    margin: 0 auto;
+}
+
+.about-me {
+    margin-bottom: 50px;
 }
 
 .about-img img,
